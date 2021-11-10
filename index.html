@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="Ru">
+
+<head>
+    <title>Web Wedsite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lib/slick/slick.css">
+    <link rel="stylesheet" href="lib/slick/slick-theme.css">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Подключаем jQuery -->
+    <script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Подключаем слайдер Slick -->
+    <script defer src="lib/slick/slick.min.js"></script>
+</head>
+
+<body>
+    <div id="main" class="d-flex flex-nowrap flex-column bd-highlight ">
+        <div id="header" class="order-first ">
+            <div class="row">
+                <div class="container col-6 col-sm-4">
+                    <h1><img src="https://c.tenor.com/906nGAL7Xw0AAAAi/mochi-peachcat-cute-cat.gif" width="80px" height="80px">The Cat's House.</h1>
+                </div>
+            </div>
+        </div>
+        <div id="nav1" class="order-1 text-center">
+            <nav class="d-inline-flex justify-content-center flex-column flex-sm-row">
+                <a class="d-inline nav-link" href="#links1">Список ссылок</a>
+                <a class="d-inline nav-link" href="#table1">Таблица</a>
+                <a class="d-inline nav-link" href="#forma1">Форма</a>
+                <a class="d-inline nav-link" href="#calculator">Калькулятор</a>
+                <a class="d-inline nav-link" href="#calculator1">Калькулятор цен</a>
+            </nav>
+        </div>
+        <div id="links1" class="order-2">
+            <div class="row">
+                <div class="container col-6 col-sm-4 p-2">
+                    <h3 style="color: #961df8; " id="task1">Список ссылок:</h3>
+                    <br>
+                    <ol>
+                        <li><a href="http://www.example.com "> Example.com.</a>
+                        </li>
+                        <li><a href="https://www.example.com "> Example.com протокол https.</a>
+                        </li>
+                        <li><a href="ftp://example.com/file.zip "> ссылку на файл на сервере FTP без авторизации</a>
+                        </li>
+                        <li><a href="ftp://user:password@example.com/file.zip "> ссылку на файл на сервере FTP с
+                        авторизации</a>
+                        </li>
+                        <li><a href="https://pets-expert.ru/odomashnivanie-koshek/ ">История кошек.</a>
+                        </li>
+                        <li><a href="#top ">Фрагмент текущей страницы.</a></li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=7IK7dUW735o&list=RDCMUClMe70teNK5LpBE3Im_JRSQ&start_radio=1&rv=7IK7dUW735o&t=14 ">
+                            Видео обзор кошек.</a>
+                        </li>
+                        <li>
+                            <h5>Породы кошек:</h5>
+                            <ul>
+                                <li><a href="https://ru.wikipedia.org/wiki/Мейн-кун " title="Maine Coon ">Мейн-ку́н;</a>
+                                </li>
+                                <li><a href="https://ru.wikipedia.org/wiki/Шотландская_вислоухая_кошка " title="Scottish Fold ">Шотландская
+                                вислоухая;</a></li>
+                                <li><a href="https://ru.wikipedia.org/wiki/Бенгальская_кошка_(домашняя) " title="Prionailurus Bengalensis ">Бенгальская;</a></li>
+                                <li><a href="https://ru.wikipedia.org/wiki/Британская_короткошёрстная_кошка " title="British Shorthair ">Британская короткошёрстная</a></li>
+                                <li><a href="https://ru.wikipedia.org/wiki/Сибирская_кошка " title="Siberian ">Сибирская</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a>(Ссылка без href)</a></li>
+                        <li><a href=" ">Пустая ссылка!</a></li>
+                        <li><a href="https://fishki.net/1259307-koshachi-shalosti.html " rel="nofollow "> Запрещен
+                        переход
+                        поисковикам!!!</a></li>
+                        <li>
+                            <noindex><a href="https://fishki.net/3418383-kak-sdelaty-domik-dlja-koshki.html "> Запрещена
+                            индексация
+                            поисковикам!!!</a></noindex>
+                        </li>
+                        <li>Хотите завести котика? Тогда вам<a href="https://youla.ru/krasnodar/zhivotnye/koshki ">«сюда!».</a>
+                        </li>
+                        <li>
+                            <div class="kart">
+                                <a href="https://ru.wikipedia.org/wiki/Мейн-кун">
+                                    <img src="https://murmuriki.ru/wp-content/uploads/2017/01/maine-coon-silver.jpg " alt="cote " width="320 " height="240 "></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="kart">
+                                <img src="https://s3.nat-geo.ru/images/2019/5/16/dd6ce4c280934c7a814238b4282a9709.max-1200x800.jpg " alt="kisa_foto " width="320 " height="240 " usemap="#kotan">
+                                <map name="kotan">
+                                <area shape="rect " coords="140,53,259,166F"
+                                      href="https://ru.wikipedia.org/wiki/Амурский_тигр " alt="Тигр " target="_blank ">
+                            </map>
+                            </div>
+                        </li>
+                        <li><a href="./exaple.html ">в текущем каталоге</a></li>
+                        <li><a href="./about/example.html ">в каталоге about</a></li>
+                        <li><a href="../example.html ">в каталоге на x1 уровень выше</a></li>
+                        <li><a href="../../example.html ">в каталоге на x2 уровня выше</a></li>
+                        <li><a href="/ "> Сокращенная ссылка на главную </a></li>
+                        <li><a href="/input ">Сокращенная ссылка на внутреннюю </a></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div id="calculator" class="order-3 text-center">
+            <div class="row">
+                <div class="container col-8 col-sm-6 p-5">
+                    <h2>Калькулятор покупок.</h2>
+                    <input type="text" id="cen" class="m-1" placeholder="Стоимость товара"> *
+                    <input type="text" id="colich" class="m-1" placeholder="Кол-во товара"> =
+                    <button onclick="calc();" class="m-1">Вывод</button>
+                    <div id="sum"></div>
+                </div>
+            </div>
+        </div>
+        <div id="calculator1" class="order-4 text-center">
+            <div class="row justify-content-center">
+                <div class="container col-10 col-sm-12">
+                    <h2>Калькулятор покупок товаров.</h2>
+                    <select onchange="calculate2()" id="rec" class="m-1" onclick="clic()">
+                    <option value="1">Домик</option>
+                    <option value="2">Когтеточка</option>
+                    <option value="3">Игрушки</option>
+                </select> *
+                    <input onchange="calculate2()" type="text" id="col" class="m-1" placeholder="Кол-во товара">
+                </div>
+                <div class="container col-10 col-sm-12">
+                    <div id="radio" hidden="true" class="btn-group btn-group-toggle m-2 p-2" data-toggle="buttons">
+                        <div id="R1">
+                            <a><input onchange="calculate2()" type="radio" name="radio" class="m-1" value="1" checked> Когтеточка-столбик
+                            </a>
+                            <a><input onchange="calculate2()" type="radio" name="radio" class="m-1" value="2"> Напольная когтеточка
+                            </a>
+                            <a><input onchange="calculate2()" type="radio" name="radio" class="m-1" value="3"> Когтеточка-лежанка
+                            </a>
+                            <a><input onchange="calculate2()" type="radio" name="radio" class="m-1" value="4"> Настенная когтеточка
+                            </a>
+                        </div>
+                    </div>
+                    <div id="checkbox" hidden="true" class="btn-group btn-group-toggle m-2 p-2" data-toggle="buttons">
+                        <div id="R2">
+                            <a><input onchange="calculate2()" type="checkbox" name="checkbox" class="m-1" value="1"> Удочка
+                            </a>
+                            <a><input onchange="calculate2()" type="checkbox" name="checkbox" class="m-1" value="2"> Мышка
+                            </a>
+                            <a><input onchange="calculate2()" type="checkbox" name="checkbox" class="m-1" value="3"> Мячик
+                            </a>
+                        </div>
+                    </div>
+                    <div id="produce"></div>
+                </div>
+            </div>
+        </div>
+        <div id="table1" class="order-5 order-sm-4">
+            <div class="row">
+                <div class="container d-flex justify-content-center col-6 col-sm-4 p-5 ">
+                    <table class="table table-bordered " style="background-color: red ">
+                        <tr class="str_m">
+                            <th rowspan="2">Порода кошки</th>
+                            <th colspan="3">Характеристики</th>
+                        </tr>
+                        <tr class="str_m">
+                            <td>Окрас</td>
+                            <td>Вес</td>
+                            <td>Длина</td>
+                        </tr>
+                        <tr class="str_nch">
+                            <td>Сибирская</td>
+                            <td>Белый</td>
+                            <td>5-12 кг.</td>
+                            <td>0,3-0,4 м.</td>
+                        </tr>
+                        <tr class="str_ch">
+                            <td>Мейн-кун</td>
+                            <td>Серый</td>
+                            <td>9-12 кг.</td>
+                            <td>1-1,23 м.</td>
+                        </tr>
+                        <tr class="str_nch">
+                            <td>Бенгальская</td>
+                            <td>Золотисто леопардовый</td>
+                            <td>6-8 кг.</td>
+                            <td>0,39-0,41 м.</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div id="forma1" class="order-4 order-sm-5">
+            <div class="row">
+                <div class="container col-8 col-sm-6 text-center p-3">
+                    <h2 id="form" class="undershape">Форма</h2>
+                    <form>
+                        <label>
+                        Имя:<br>
+                        <input type="text" name="username" value="">
+                    </label>
+                    </form>
+                    <form>
+                        <label>
+                        E-mail:<br>
+                        <input type="email" name="email" value="">
+                    </label>
+                    </form>
+                    <form>
+                        <label>
+                        Дата рождения:<br>
+                        <input type="date" name="birthday" value="">
+                    </label>
+                    </form>
+                    <form>
+                        <br>Пол:
+                        <label>
+                        <input type="radio" checked="checked" name="radio-group-1" value="Значение1">
+                        женский
+                    </label>
+                        <label>
+                        <input type="radio" name="radio-group-1" value="Значение2">
+                        мужской
+                    </label>
+                    </form>
+                    <form>
+                        <br>Количество конечностей:<br>
+                        <label>
+                        <input type="radio" checked="checked" name="radio-group-1" value="Значение0">
+                        0
+                    </label>
+                        <label>
+                        <input type="radio" checked="checked" name="radio-group-1" value="Значение1">
+                        1
+                    </label>
+                        <label>
+                        <input type="radio" checked="checked" name="radio-group-1" value="Значение2">
+                        2
+                    </label>
+                        <label>
+                        <input type="radio" checked="checked" name="radio-group-1" value="Значение3">
+                        3
+                    </label>
+                        <label>
+                        <input type="radio" checked="checked" name="radio-group-1" value="Значение4">
+                        4
+                    </label>
+                    </form>
+                    <form>
+                        <p>
+                            Сверхспособности:<br>
+                            <label>
+                            <select name="field-name-3" multiple="multiple">
+                                <option value="Значение1" selected="selected">Бессмертие</option>
+                                <option value="Значение2">Прохождение сквозь стены</option>
+                                <option value="Значение3">Левитация</option>
+                            </select>
+                        </label>
+                        </p>
+                    </form>
+                    <form>
+                        Биография: <br>
+                        <label>
+                        <textarea autofocus></textarea>
+                    </label>
+                    </form>
+                    <br>
+                    <label>
+                    <input type="checkbox"> с контрактом ознакомлен (а) <br>
+                    <button>«Отправить»</button>
+                </label>
+                </div>
+            </div>
+        </div>
+        <div class="order-last">
+            <div class="row text-center">
+                <div class="container">
+                    (c) Козлов Александр 2021
+                </div>
+            </div>
+        </div>
+        <div id="Задание 7">
+            <div id="mySlides" class="text-center">
+                <div class="mySlides">
+                    <div class="d-inline-flex justify-content-center col-10 col-lg-8">
+                        <div class="slider">
+                            <div class="slide m-1">
+                                <img src="img\img2.jpg" alt="Слайд 1">
+                            </div>
+                            <div class="slide m-1">
+                                <img src="img\img3.jpg" alt="Слайд 2">
+                            </div>
+                            <div class="slide m-1">
+                                <img src="img\img4.jpg" alt="Слайд 3">
+                            </div>
+                            <div class="slide m-1">
+                                <img src="img\img1.jpg" alt="Слайд 4">
+                            </div>
+                            <div class="slide m-1">
+                                <img src="img\img1_1.jpg" alt="Слайд 5">
+                            </div>
+                            <div class="slide m-1">
+                                <img src="img\img1_2.jpg" alt="Слайд 6">
+                            </div>
+                            <div class="slide m-1">
+                                <img src="img\img1_3.jpg" alt="Слайд 7">
+                            </div>
+                            <div class="slide m-1">
+                                <img src="img\img1_4.jpg" alt="Слайд 8">
+                            </div>
+                            <div class="slide m-1">
+                                <img src="img\img2_1.jpg" alt="Слайд 9">
+                            </div>
+                            <div class="slide m-1">
+                                <img src="img\img2_2.jpg" alt="Слайд 10">
+                            </div>
+                            <div class="slide m-1">
+                                <img src="img\img2_3.jpg" alt="Слайд 11">
+                            </div>
+                            <div class="slide m-1">
+                                <img src="img\img2_4.jpg" alt="Слайд 12">
+                            </div>
+                            <div class="slide m-1">
+                                <img src="img\img3_4.jpg" alt="Слайд 13">
+                            </div>
+                            <div class="slide m-1">
+                                <img src="img\img3_2.jpg" alt="Слайд 14">
+                            </div>
+                            <div class="slide m-1">
+                                <img src="img\img3_3.jfif" alt="Слайд 15">
+                            </div>
+                            <div class="slide m-1">
+                                <img src="img\img3_1.jfif" alt="Слайд 16">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script defer src="script.js">
+    </script>
+    <script defer src="mySlides.js">
+    </script>
+</body>
+
+</html>

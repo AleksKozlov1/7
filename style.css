@@ -1,0 +1,85 @@
+body {
+    background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1612959885_174-p-rozovii-fon-s-koshkami-218.jpg);
+    background-size: cover;
+    background-position: 20% 73%;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+}
+
+h1 {
+    color: #4c2ef8;
+}
+
+link {
+    color: rgb(0, 217, 255);
+}
+
+a {
+    color: rgb(199, 120, 219);
+}
+
+a:visited {
+    color: rgba(161, 85, 199, 0.51)
+}
+
+.str_m {
+    background-color: rgba(0, 0, 0, 0.44);
+    color: rgb(255, 255, 255);
+}
+
+.str_ch {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: rgb(0, 0, 0);
+}
+
+.str_nch {
+    background-color: rgba(255, 255, 255, 0.59);
+    color: rgb(0, 0, 0);
+}
+
+#task1 {
+    text-align: center;
+}
+
+#R1 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+#R2 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.slider {
+    max-width: 80%;
+    margin: 20px auto;
+}
+
+.slide>img {
+    max-width: 95%;
+}
+
+@media only screen and (max-width: 480px) {
+    .slide>img {
+        max-width: 100%;
+    }
+    .kart>a>img {
+        max-width: 200px;
+        max-height: 110px;
+    }
+    .kart>img {
+        max-width: 200px;
+        max-height: 110px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .slide>img {
+        max-width: 100%;
+    }
+}
