@@ -110,7 +110,7 @@
                     <h2>Калькулятор покупок.</h2>
                     <input type="text" id="cen" class="m-1" placeholder="Стоимость товара"> *
                     <input type="text" id="colich" class="m-1" placeholder="Кол-во товара"> =
-                    <button onclick="calc();" class="m-1">Вывод</button>
+                    <button id="vvod" class="m-1">Вывод</button>
                     <div id="sum"></div>
                 </div>
             </div>
@@ -119,34 +119,27 @@
             <div class="row justify-content-center">
                 <div class="container col-10 col-sm-12">
                     <h2>Калькулятор покупок товаров.</h2>
-                    <select onchange="calculate2()" id="rec" class="m-1" onclick="clic()">
-                    <option value="1">Домик</option>
-                    <option value="2">Когтеточка</option>
-                    <option value="3">Игрушки</option>
-                </select> *
-                    <input onchange="calculate2()" type="text" id="col" class="m-1" placeholder="Кол-во товара">
+                    <select id="rec" class="m-1">
+                        <option value="1">Домик</option>
+                        <option value="2">Когтеточка</option>
+                        <option value="3">Игрушки</option>
+                    </select> *
+                    <input type="text" id="col" class="m-1" placeholder="Кол-во товара">
                 </div>
                 <div class="container col-10 col-sm-12">
                     <div id="radio" hidden="true" class="btn-group btn-group-toggle m-2 p-2" data-toggle="buttons">
                         <div id="R1">
-                            <a><input onchange="calculate2()" type="radio" name="radio" class="m-1" value="1" checked> Когтеточка-столбик
-                            </a>
-                            <a><input onchange="calculate2()" type="radio" name="radio" class="m-1" value="2"> Напольная когтеточка
-                            </a>
-                            <a><input onchange="calculate2()" type="radio" name="radio" class="m-1" value="3"> Когтеточка-лежанка
-                            </a>
-                            <a><input onchange="calculate2()" type="radio" name="radio" class="m-1" value="4"> Настенная когтеточка
-                            </a>
+                            <a><input id="rad1" type="radio" name="radio" class="m-1" value="1" checked> Когтеточка-столбик</a>
+                            <a><input id="rad2" type="radio" name="radio" class="m-1" value="2"> Напольная когтеточка</a>
+                            <a><input id="rad3" type="radio" name="radio" class="m-1" value="3"> Когтеточка-лежанка</a>
+                            <a><input id="rad4" type="radio" name="radio" class="m-1" value="4"> Настенная когтеточка</a>
                         </div>
                     </div>
                     <div id="checkbox" hidden="true" class="btn-group btn-group-toggle m-2 p-2" data-toggle="buttons">
                         <div id="R2">
-                            <a><input onchange="calculate2()" type="checkbox" name="checkbox" class="m-1" value="1"> Удочка
-                            </a>
-                            <a><input onchange="calculate2()" type="checkbox" name="checkbox" class="m-1" value="2"> Мышка
-                            </a>
-                            <a><input onchange="calculate2()" type="checkbox" name="checkbox" class="m-1" value="3"> Мячик
-                            </a>
+                            <a><input id="chicken1" type="checkbox" name="checkbox" class="m-1" value="1"> Удочка</a>
+                            <a><input id="chicken2" type="checkbox" name="checkbox" class="m-1" value="2"> Мышка</a>
+                            <a><input id="chicken3" type="checkbox" name="checkbox" class="m-1" value="3"> Мячик</a>
                         </div>
                     </div>
                     <div id="produce"></div>
